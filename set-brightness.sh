@@ -1,5 +1,11 @@
 #!/bin/bash
-
+#title          :set-brightness.sh
+#description    :This script will increase/decrease the screen brightness
+#author         :Jordi Marimon
+#date           :20190422
+#version        :0.1
+#usage          :sudo bash <inc/dec> <%>
+#===============================================================================================
 BASEPATH=/sys/class/backlight
 DEVICE="intel_backlight"
 cd $BASEPATH
