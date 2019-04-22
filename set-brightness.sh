@@ -4,7 +4,7 @@
 #author         :Jordi Marimon
 #date           :20190422
 #version        :0.1
-#usage          :sudo bash <inc/dec> <%>
+#usage          :sudo bash set-brightness.sh <inc/dec> <%>
 #===============================================================================================
 BASEPATH=/sys/class/backlight
 DEVICE="intel_backlight"
